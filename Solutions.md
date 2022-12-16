@@ -41,7 +41,7 @@ Solution of AttributeError
 The error didn't raised because you said to `pass` in `except`, by mentioning `AttributeError` after `except` you are telling the code to `pass` it when it's `AttributeError` only!
 
 #### Solution: AttributeError
-You can call the appropriate attribute to avoid this error, Handling it is also a great way avoid crash!
+You can call the appropriate attribute to avoid this error, [Handling](https://github.com/Sayad-Uddin-Tahsin/Solution-Hint/blob/main/Solutions.md#handling) it is also a great way avoid crash!
 
 # FileNotFoundError
 ### What is FileNotFoundError?
