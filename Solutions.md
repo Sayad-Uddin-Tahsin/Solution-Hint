@@ -73,8 +73,8 @@ There is no specific solve for this type of error. You've to get the range of th
 | --- | --- | --- | --- | --- |
 | 0 | 1 | 2 | 3 | 4 |
 
-# FileNotFoundError
-### What is FileNotFoundError?
+# KeyError
+### What is KeyError?
 Raised when a mapping (dictionary) key is not found in the set of existing keys. This is a Dictionary Example: 
 ```json
 {"key": "value"}
