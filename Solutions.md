@@ -44,6 +44,27 @@ The error didn't raised because you said to `pass` in `except`, by mentioning `A
 You can call the appropriate attribute to avoid this error, Handling it is also a great way avoid crash!
 
 
+## IndexError
+### What is IndexError?
+Raised when a sequence subscript is out of range. (Slice indices are silently truncated to fall in the allowed range; if an index is not an integer, [`TypeError`](https://github.com/Sayad-Uddin-Tahsin/Solution-Hint/blob/main/Solutions.md#typeerror) is raised.)
+
+This error occurs when an attempt is made to access an item in a list at an index which is out of bounds. The range of a list in Python is [0, n-1], where `n` is the number of elements in the list. When an attempt is made to access an item at an index outside this range, an `IndexError: list index out of range` error is thrown.
+
+## 
+
+### IndexError: list
+**Error**:
+```py
+IndexError: list index out of range
+```
+
+**Solve**
+
+There is no specific solve for this type of error. You've to get the range of the `list` and call that as the `index`. Index for a List is starts from 0. this diagram shows how the indexes are counted.
+| Apple | Banana | Papaya | Pineapple | Watermelon |
+| --- | --- | --- | --- | --- |
+| 0 | 1 | 2 | 3 | 4 |
+
 ## ModuleNotFoundError
 ### What is ModuleNotFoundError?
 A subclass of [ImportError](https://docs.python.org/3/library/exceptions.html#ImportError) which is raised by [import](https://docs.python.org/3/reference/simple_stmts.html#import) when a module could not be located. It is also raised when None is found in [sys.modules](https://docs.python.org/3/library/sys.html#sys.modules). It usually occoured when the Module used in code but not installed!
