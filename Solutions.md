@@ -43,6 +43,14 @@ The error didn't raised because you said to `pass` in `except`, by mentioning `A
 #### Solution
 You can call the appropriate attribute to avoid this error, Handling it is also a great way avoid crash!
 
+# FileNotFoundError
+### What is FileNotFoundError?
+Raised when a file or directory is requested but doesn’t exist. Corresponds to errno [ENOENT](https://docs.python.org/3/library/errno.html#errno.ENOENT).
+
+### Solution
+This Type("FileNotFoundError") of error occurred when a File tried to opened in your code is not in this directory or the PATH is incorrect!
+Recheck the file name or path, to solve this issue.
+
 
 # IndexError
 ### What is IndexError?
@@ -64,6 +72,17 @@ There is no specific solve for this type of error. You've to get the range of th
 | Apple | Banana | Papaya | Pineapple | Watermelon |
 | --- | --- | --- | --- | --- |
 | 0 | 1 | 2 | 3 | 4 |
+
+# FileNotFoundError
+### What is FileNotFoundError?
+Raised when a mapping (dictionary) key is not found in the set of existing keys. This is a Dictionary Example: 
+```json
+{"key": "value"}
+```
+This error occoured when the requested `key` is not in the dictionary.
+
+### Solution
+There is no specific solution for this error. You have to recheck the key and call with the right one. Note that, `key` is **CASE SENSITIVE**.
 
 # ModuleNotFoundError
 ### What is ModuleNotFoundError?
