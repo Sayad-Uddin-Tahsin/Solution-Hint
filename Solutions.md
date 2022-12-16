@@ -151,10 +151,10 @@ name = "Tahsin"
 In the below example program, the variable geek is defined within the local scope of the assign function. Hence, it cannot be accessed globally. This raises NameError.
 ```py
 def assign():
-    geek = "GeeksforGeeks"
+    name = "NameError Solution"
  
 assign()
-print(geek)
+print(name)
 ```
 
 ##
