@@ -122,8 +122,7 @@ The `name` attribute can be set using a keyword-only argument to the constructor
 
 ##
 
-### Error
-
+### Why NameError occurred?
 **1. Misspelled built-in functions:**
 
 In the below example code, the print statement is misspelled hence NameError will be raised.
