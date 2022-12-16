@@ -40,14 +40,14 @@ Solution of AttributeError
 ```
 The error didn't raised because you said to `pass` in `except`, by mentioning `AttributeError` after `except` you are telling the code to `pass` it when it's `AttributeError` only!
 
-#### Solution - AttributeError
+#### Solution: AttributeError
 You can call the appropriate attribute to avoid this error, Handling it is also a great way avoid crash!
 
 # FileNotFoundError
 ### What is FileNotFoundError?
 Raised when a file or directory is requested but doesn’t exist. Corresponds to errno [ENOENT](https://docs.python.org/3/library/errno.html#errno.ENOENT).
 
-### Solution - FileNotFoundError
+### Solution: FileNotFoundError
 This Type("FileNotFoundError") of error occurred when a File tried to opened in your code is not in this directory or the PATH is incorrect!
 Recheck the file name or path, to solve this issue.
 
@@ -81,7 +81,7 @@ Raised when a mapping (dictionary) key is not found in the set of existing keys.
 ```
 This error occoured when the requested `key` is not in the dictionary.
 
-### Solution - KeyError
+### Solution: KeyError
 There is no specific solution for this error. You have to recheck the key and call with the right one. Note that, `key` is **CASE SENSITIVE**.
 
 # ModuleNotFoundError
