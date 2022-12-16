@@ -113,6 +113,57 @@ No module named 'module_name'
 **Solution**:
 Install the Module in your PC. The Install syntax is `pip install <package>`. But in some case, `<package>` is not the same as the Module name. Get the Install Syntax by searching in [pypi.org](https://pypi.org/search/) or search `<module name> pypi` in Google you'll find a pypi page corresponding the Module's page in PyPi.
 
+
+# NameError
+### What is NameError?
+Raised when a local or global name is not found. This applies only to unqualified names. The associated value is an error message that includes the name that could not be found.
+
+The `name` attribute can be set using a keyword-only argument to the constructor. When set it represent the name of the variable that was attempted to be accessed.
+
+##
+
+### Error
+
+**1. Misspelled built-in functions:**
+
+In the below example code, the print statement is misspelled hence NameError will be raised.
+```py
+name = input()
+Print(name)
+```
+
+**2. Using undefined variables:**
+
+When the below program is executed, NameError will be raised as the variable `name` is never defined because we've created `user` not `name`
+```py
+user = input()
+print(name)
+```
+
+**3. Defining variable after usage:**
+
+In the following example, even though the variable name is defined in the program, it is defined after its usage. Since Python interprets the code from top to bottom, this will raise NameError.
+```py
+print(name)
+name = "Tahsin"
+```
+
+**4. Incorrect usage of scope:**
+
+In the below example program, the variable geek is defined within the local scope of the assign function. Hence, it cannot be accessed globally. This raises NameError.
+```py
+def assign():
+    geek = "GeeksforGeeks"
+ 
+assign()
+print(geek)
+```
+
+### Solution: NameError
+
+Skipping the above issues will solve the problem.
+
+
 # TypeError
 ### What is TypeError?
 Exception `TypeError` raised when an operation or function is applied to an object of inappropriate type. The associated value is a string giving details about the type mismatch.
