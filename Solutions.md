@@ -55,7 +55,7 @@ AttributeError: 'Solution' object has no attribute 'something'
 because there was no attribute set in the `Solution` class.
 
 ### How to Fix?
-##### Handling
+#### Handling
 Errors and exceptions in Python can be handled using exception handling i.e. by using try and except in Python. With `try` & `except` the errors can be handled. Code:
 ```py
 class Solution():
@@ -74,5 +74,5 @@ Solution of AttributeError
 ```
 The error didn't raised because you said to `pass` in `except`, by mentioning `AttributeError` after `except` you are telling the code to `pass` it when it's `AttributeError` only!
 
-##### Solution
+#### Solution
 You can call the appropriate attribute to avoid this error, Handling it is also a great way avoid crash!
