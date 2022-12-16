@@ -75,10 +75,9 @@ IndexError: list index out of range
 
 **Solve**
 
-There is no specific solve for this type of error. You've to get the range of the `list` and call that as the `index`. Index for a List is starts from 0. this diagram shows how the indexes are counted.
-| Apple | Banana | Papaya | Pineapple | Watermelon |
-| --- | --- | --- | --- | --- |
-| 0 | 1 | 2 | 3 | 4 |
+There is no specific solve for this type of error. You've to get the range of the `list` and call that as the `index`. Index for a List is starts from 0. This image shows how the indexes are counted.
+
+![image](https://user-images.githubusercontent.com/89304780/208110226-6d4c78d7-2b85-43d3-8817-fde00d5e26a3.png)
 
 # KeyError
 ### What is KeyError?
@@ -162,7 +161,7 @@ print(geek)
 
 ### Solution: NameError
 
-Skipping the above issues will solve the problem.
+Skipping the [above](https://github.com/Sayad-Uddin-Tahsin/Solution-Hint/blob/main/Solutions.md#why-nameerror-occurred) issues will solve the problem.
 
 
 # TypeError
