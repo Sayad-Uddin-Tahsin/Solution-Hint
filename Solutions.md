@@ -1,4 +1,4 @@
-## AttributeError
+# AttributeError
 ### What is AttributeError?
 Exception `AttributeError` raised when an attribute reference (see [Attribute references](https://docs.python.org/3/reference/expressions.html#attribute-references)) or assignment fails. (When an object does not support attribute references or attribute assignments at all, [`TypeError`](https://github.com/Sayad-Uddin-Tahsin/Solution-Hint/blob/main/Solutions.md#typeerror) is raised.)
 
@@ -44,7 +44,7 @@ The error didn't raised because you said to `pass` in `except`, by mentioning `A
 You can call the appropriate attribute to avoid this error, Handling it is also a great way avoid crash!
 
 
-## IndexError
+# IndexError
 ### What is IndexError?
 Raised when a sequence subscript is out of range. (Slice indices are silently truncated to fall in the allowed range; if an index is not an integer, [`TypeError`](https://github.com/Sayad-Uddin-Tahsin/Solution-Hint/blob/main/Solutions.md#typeerror) is raised.)
 
@@ -65,7 +65,7 @@ There is no specific solve for this type of error. You've to get the range of th
 | --- | --- | --- | --- | --- |
 | 0 | 1 | 2 | 3 | 4 |
 
-## ModuleNotFoundError
+# ModuleNotFoundError
 ### What is ModuleNotFoundError?
 A subclass of [ImportError](https://docs.python.org/3/library/exceptions.html#ImportError) which is raised by [import](https://docs.python.org/3/reference/simple_stmts.html#import) when a module could not be located. It is also raised when None is found in [sys.modules](https://docs.python.org/3/library/sys.html#sys.modules). It usually occoured when the Module used in code but not installed!
 
@@ -80,7 +80,7 @@ No module named 'module_name'
 **Solution**:
 Install the Module in your PC. The Install syntax is `pip install <package>`. But in some case, `<package>` is not the same as the Module name. Get the Install Syntax by searching in [pypi.org](https://pypi.org/search/) or search `<module name> pypi` in Google you'll find a pypi page corresponding the Module's page in PyPi.
 
-## TypeError
+# TypeError
 ### What is TypeError?
 Exception `TypeError` raised when an operation or function is applied to an object of inappropriate type. The associated value is a string giving details about the type mismatch.
 
