@@ -4,9 +4,14 @@
 ```py
 'something' is an invalid keyword argument for print()
 ```
+Here `something` can be anything!
+
 **Solve**:
 
-This means that there is an Argument in `print` function which doesn't exists in your code.
+This means that there is an Argument in `print` function which doesn't exists in your code. Your code might be like this:
+```py
+print(something="hi")
+```
 #### Arguments
 | Argument | Description |
 | :--: | :-- |
