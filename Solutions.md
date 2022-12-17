@@ -178,10 +178,13 @@ The Python interpreter will run a program if it is syntactically correct (free o
 ### Solution: RuntimeError
 - Avoid using variables that have not been initialized. These may be set to 0 on your system but not on the coding platform.
 - Check every single occurrence of an array element and ensure that it is not out of bounds.
-- Avoiding [these](https://github.com/Sayad-Uddin-Tahsin/Solution-Hint/blob/main/Solutions.md#why-runtimeerror-occurred)
+- Avoiding [these](https://github.com/Sayad-Uddin-Tahsin/Solution-Hint/blob/main/Solutions.md#why-runtimeerror-occourred)
 
 # SyntaxError
 ### What is SyntaxError?
+The Python `SyntaxError` occurs when the interpreter encounters invalid syntax in code. When Python code is executed, the interpreter parses it to convert it into bytecode. If the interpreter finds any invalid syntax during the parsing stage, a `SyntaxError` is thrown.
+
+### Solution: SyntaxError
 The `SyntaxError` is raised when the parser encounters a syntax error. A syntax error may occur in an import statement or while calling the built-in functions exec() or eval(), or when reading the initial script or standard input.
 
 To avoid syntax errors, IDEs that understand Python syntax can be used as they highlight the lines containing the problem. These issues can then be fixed before code is executed.
