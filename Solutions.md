@@ -164,6 +164,29 @@ print(name)
 
 Skipping the [above](https://github.com/Sayad-Uddin-Tahsin/Solution-Hint/blob/main/Solutions.md#why-nameerror-occurred) issues will solve the problem.
 
+# RuntimeError
+### What is RuntimeError?
+The Python interpreter will run a program if it is syntactically correct (free of syntax errors). However, if the program encounters a runtime error - a problem that was not detected when the program was parsed and is only revealed when a specific line is executed - it may exit unexpectedly during execution. When a program crashes due to a runtime error, we say it has crashed
+
+### Why RuntimeError occoured?
+- Division by zero
+- Performing an operation on incompatible types
+- Using an identifier that has not been defined
+- Accessing a list element, dictionary value, or object attribute which doesn’t exist
+- Trying to access a file that doesn’t exist
+
+### Solution: RuntimeError
+- Avoid using variables that have not been initialized. These may be set to 0 on your system but not on the coding platform.
+- Check every single occurrence of an array element and ensure that it is not out of bounds.
+- Avoiding [these](https://github.com/Sayad-Uddin-Tahsin/Solution-Hint/blob/main/Solutions.md#why-runtimeerror-occurred)
+
+# SyntaxError
+### What is SyntaxError?
+The `SyntaxError` is raised when the parser encounters a syntax error. A syntax error may occur in an import statement or while calling the built-in functions exec() or eval(), or when reading the initial script or standard input.
+
+To avoid syntax errors, IDEs that understand Python syntax can be used as they highlight the lines containing the problem. These issues can then be fixed before code is executed.
+
+If a `SyntaxError` occurs after execution, the traceback can be inspected to detect where the issue exists in code. Rechecking that Line where it occoured attentively and searching for the issue will solve the problem.
 
 # TypeError
 ### What is TypeError?
