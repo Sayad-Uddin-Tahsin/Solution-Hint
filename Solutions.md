@@ -56,7 +56,7 @@ FileNotFoundError: [Errno 2] No such file or directory
 **Solution**:
 
 This Type of error occurred when a File tried to opened in your code is not in this directory or the PATH is incorrect!
-Recheck the file name or path, to solve this issue.
+Rechecking the file name or path will solve this issue.
 
 
 # IndexError
