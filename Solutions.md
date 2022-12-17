@@ -178,7 +178,7 @@ The Python interpreter will run a program if it is syntactically correct (free o
 ### Solution: RuntimeError
 - Avoid using variables that have not been initialized. These may be set to 0 on your system but not on the coding platform.
 - Check every single occurrence of an array element and ensure that it is not out of bounds.
-- Avoiding [these](https://github.com/Sayad-Uddin-Tahsin/Solution-Hint/blob/main/Solutions.md#why-runtimeerror-occourred)
+- Avoiding [these](https://github.com/Sayad-Uddin-Tahsin/Solution-Hint/blob/main/Solutions.md#why-runtimeerror-occoured) possible issues.
 
 # SyntaxError
 ### What is SyntaxError?
