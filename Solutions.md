@@ -41,7 +41,7 @@ Solution of AttributeError
 The error didn't raised because you said to `pass` in `except`, by mentioning `AttributeError` after `except` you are telling the code to `pass` it when it's `AttributeError` only!
 
 #### Solution: AttributeError
-You can call the appropriate attribute to avoid this error, [Handling](https://github.com/Sayad-Uddin-Tahsin/Solution-Hint/blob/main/Solutions.md#handling)is also a great way avoid crash!
+You can call the appropriate attribute to avoid this error, [Handling](https://github.com/Sayad-Uddin-Tahsin/Solution-Hint/blob/main/Solutions.md#handling) is also a great way avoid crash!
 
 # FileNotFoundError
 ### What is FileNotFoundError?
@@ -169,16 +169,35 @@ Skipping the [above](https://github.com/Sayad-Uddin-Tahsin/Solution-Hint/blob/ma
 The Python interpreter will run a program if it is syntactically correct (free of syntax errors). However, if the program encounters a runtime error - a problem that was not detected when the program was parsed and is only revealed when a specific line is executed - it may exit unexpectedly during execution. When a program crashes due to a runtime error, we say it has crashed
 
 ### Why RuntimeError occoured?
-- Division by zero
-- Performing an operation on incompatible types
-- Using an identifier that has not been defined
-- Accessing a list element, dictionary value, or object attribute which doesn’t exist
-- Trying to access a file that doesn’t exist
+There are many potential causes for RuntimeError exceptions in Python. Here are a few common reasons:
+
+- Syntax errors: If your code contains syntax errors, the interpreter will not be able to execute it, and a RuntimeError will be raised.
+
+- Invalid input: If you pass invalid arguments to a function or try to perform an operation on an object of the wrong type, a RuntimeError may be raised.
+
+- Resource constraints: If your code consumes more resources (such as memory) than are available, a RuntimeError may be raised.
+
+- Recursion depth exceeded: If your code contains a recursive function that calls itself too many times, a RecursionError may be raised.
+
+- Internal interpreter error: If the Python interpreter encounters an internal error, a SystemError may be raised.
+
+- Division by zero: If your code attempts to divide a number by zero, a ZeroDivisionError may be raised.
+
+These are just a few examples of the types of errors that can cause RuntimeError exceptions in Python. The specific cause of a RuntimeError will depend on the context in which it occurs.
 
 ### Solution: RuntimeError
+There is no one-size-fits-all solution for RuntimeError exceptions in Python, as the cause of the error and the appropriate solution will depend on the specific circumstances of the error. Here are a few general strategies you can try when encountering a RuntimeError in your Python code:
+
+- Check for syntax errors: Make sure that your code is properly formatted and that all of your statements are correctly written. Syntax errors can often cause RuntimeError exceptions.
+- Check the error message: The error message that is displayed when a RuntimeError occurs can often provide valuable information about the cause of the error. Use this information to help you identify the root cause of the error and determine the appropriate solution.
+- Debug your code: Use a debugger or print statements to trace the execution of your code and identify the specific line or lines that are causing the RuntimeError to occur.
+- Check for invalid input: Make sure that you are passing valid arguments to your functions and that you are not trying to perform operations on objects of the wrong type.
+- Check for resource constraints: If the RuntimeError is related to a lack of resources (such as memory), try optimizing your code to use fewer resources or increasing the available resources (e.g., by allocating more memory).
 - Avoid using variables that have not been initialized. These may be set to 0 on your system but not on the coding platform.
 - Check every single occurrence of an array element and ensure that it is not out of bounds.
 - Avoiding [these](https://github.com/Sayad-Uddin-Tahsin/Solution-Hint/blob/main/Solutions.md#why-runtimeerror-occoured) possible issues.
+
+Again, the specific solution for a RuntimeError will depend on the cause of the error. It may require some trial and error to determine the root cause and the appropriate solution.
 
 # SyntaxError
 ### What is SyntaxError?
